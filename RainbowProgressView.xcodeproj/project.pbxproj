@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BEB76E1DA8DB830011C193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEB76D1DA8DB830011C193 /* main.m */; };
+		03BEB7711DA8DB830011C193 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEB7701DA8DB830011C193 /* AppDelegate.m */; };
+		03BEB7741DA8DB830011C193 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEB7731DA8DB830011C193 /* ViewController.m */; };
+		03BEB7771DA8DB830011C193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BEB7751DA8DB830011C193 /* Main.storyboard */; };
+		03BEB7791DA8DB830011C193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BEB7781DA8DB830011C193 /* Assets.xcassets */; };
+		03BEB77C1DA8DB830011C193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BEB77A1DA8DB830011C193 /* LaunchScreen.storyboard */; };
+		03BEB7871DA8DB830011C193 /* RainbowProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEB7861DA8DB830011C193 /* RainbowProgressViewTests.m */; };
+		03BEB7921DA8DB830011C193 /* RainbowProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEB7911DA8DB830011C193 /* RainbowProgressViewUITests.m */; };
+		03BEB7A11DA8DB980011C193 /* RainbowProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEB7A01DA8DB980011C193 /* RainbowProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03BEB7831DA8DB830011C193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BEB7611DA8DB830011C193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03BEB7681DA8DB830011C193;
+			remoteInfo = RainbowProgressView;
+		};
+		03BEB78E1DA8DB830011C193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BEB7611DA8DB830011C193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03BEB7681DA8DB830011C193;
+			remoteInfo = RainbowProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BEB7691DA8DB830011C193 /* RainbowProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BEB76D1DA8DB830011C193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03BEB76F1DA8DB830011C193 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03BEB7701DA8DB830011C193 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03BEB7721DA8DB830011C193 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03BEB7731DA8DB830011C193 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03BEB7761DA8DB830011C193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03BEB7781DA8DB830011C193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03BEB77B1DA8DB830011C193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03BEB77D1DA8DB830011C193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03BEB7821DA8DB830011C193 /* RainbowProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BEB7861DA8DB830011C193 /* RainbowProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainbowProgressViewTests.m; sourceTree = "<group>"; };
+		03BEB7881DA8DB830011C193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03BEB78D1DA8DB830011C193 /* RainbowProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BEB7911DA8DB830011C193 /* RainbowProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainbowProgressViewUITests.m; sourceTree = "<group>"; };
+		03BEB7931DA8DB830011C193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03BEB79F1DA8DB980011C193 /* RainbowProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainbowProgressView.h; sourceTree = "<group>"; };
+		03BEB7A01DA8DB980011C193 /* RainbowProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainbowProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03BEB7661DA8DB830011C193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BEB77F1DA8DB830011C193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BEB78A1DA8DB830011C193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BEB7601DA8DB830011C193 = {
+			isa = PBXGroup;
+			children = (
+				03BEB76B1DA8DB830011C193 /* RainbowProgressView */,
+				03BEB7851DA8DB830011C193 /* RainbowProgressViewTests */,
+				03BEB7901DA8DB830011C193 /* RainbowProgressViewUITests */,
+				03BEB76A1DA8DB830011C193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03BEB76A1DA8DB830011C193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03BEB7691DA8DB830011C193 /* RainbowProgressView.app */,
+				03BEB7821DA8DB830011C193 /* RainbowProgressViewTests.xctest */,
+				03BEB78D1DA8DB830011C193 /* RainbowProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03BEB76B1DA8DB830011C193 /* RainbowProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				03BEB76F1DA8DB830011C193 /* AppDelegate.h */,
+				03BEB7701DA8DB830011C193 /* AppDelegate.m */,
+				03BEB7721DA8DB830011C193 /* ViewController.h */,
+				03BEB7731DA8DB830011C193 /* ViewController.m */,
+				03BEB79F1DA8DB980011C193 /* RainbowProgressView.h */,
+				03BEB7A01DA8DB980011C193 /* RainbowProgressView.m */,
+				03BEB7751DA8DB830011C193 /* Main.storyboard */,
+				03BEB7781DA8DB830011C193 /* Assets.xcassets */,
+				03BEB77A1DA8DB830011C193 /* LaunchScreen.storyboard */,
+				03BEB77D1DA8DB830011C193 /* Info.plist */,
+				03BEB76C1DA8DB830011C193 /* Supporting Files */,
+			);
+			path = RainbowProgressView;
+			sourceTree = "<group>";
+		};
+		03BEB76C1DA8DB830011C193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03BEB76D1DA8DB830011C193 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03BEB7851DA8DB830011C193 /* RainbowProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				03BEB7861DA8DB830011C193 /* RainbowProgressViewTests.m */,
+				03BEB7881DA8DB830011C193 /* Info.plist */,
+			);
+			path = RainbowProgressViewTests;
+			sourceTree = "<group>";
+		};
+		03BEB7901DA8DB830011C193 /* RainbowProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03BEB7911DA8DB830011C193 /* RainbowProgressViewUITests.m */,
+				03BEB7931DA8DB830011C193 /* Info.plist */,
+			);
+			path = RainbowProgressViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03BEB7681DA8DB830011C193 /* RainbowProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BEB7961DA8DB830011C193 /* Build configuration list for PBXNativeTarget "RainbowProgressView" */;
+			buildPhases = (
+				03BEB7651DA8DB830011C193 /* Sources */,
+				03BEB7661DA8DB830011C193 /* Frameworks */,
+				03BEB7671DA8DB830011C193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainbowProgressView;
+			productName = RainbowProgressView;
+			productReference = 03BEB7691DA8DB830011C193 /* RainbowProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03BEB7811DA8DB830011C193 /* RainbowProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BEB7991DA8DB830011C193 /* Build configuration list for PBXNativeTarget "RainbowProgressViewTests" */;
+			buildPhases = (
+				03BEB77E1DA8DB830011C193 /* Sources */,
+				03BEB77F1DA8DB830011C193 /* Frameworks */,
+				03BEB7801DA8DB830011C193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03BEB7841DA8DB830011C193 /* PBXTargetDependency */,
+			);
+			name = RainbowProgressViewTests;
+			productName = RainbowProgressViewTests;
+			productReference = 03BEB7821DA8DB830011C193 /* RainbowProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03BEB78C1DA8DB830011C193 /* RainbowProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BEB79C1DA8DB830011C193 /* Build configuration list for PBXNativeTarget "RainbowProgressViewUITests" */;
+			buildPhases = (
+				03BEB7891DA8DB830011C193 /* Sources */,
+				03BEB78A1DA8DB830011C193 /* Frameworks */,
+				03BEB78B1DA8DB830011C193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03BEB78F1DA8DB830011C193 /* PBXTargetDependency */,
+			);
+			name = RainbowProgressViewUITests;
+			productName = RainbowProgressViewUITests;
+			productReference = 03BEB78D1DA8DB830011C193 /* RainbowProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03BEB7611DA8DB830011C193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mobby;
+				TargetAttributes = {
+					03BEB7681DA8DB830011C193 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					03BEB7811DA8DB830011C193 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 03BEB7681DA8DB830011C193;
+					};
+					03BEB78C1DA8DB830011C193 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 03BEB7681DA8DB830011C193;
+					};
+				};
+			};
+			buildConfigurationList = 03BEB7641DA8DB830011C193 /* Build configuration list for PBXProject "RainbowProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03BEB7601DA8DB830011C193;
+			productRefGroup = 03BEB76A1DA8DB830011C193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03BEB7681DA8DB830011C193 /* RainbowProgressView */,
+				03BEB7811DA8DB830011C193 /* RainbowProgressViewTests */,
+				03BEB78C1DA8DB830011C193 /* RainbowProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03BEB7671DA8DB830011C193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BEB77C1DA8DB830011C193 /* LaunchScreen.storyboard in Resources */,
+				03BEB7791DA8DB830011C193 /* Assets.xcassets in Resources */,
+				03BEB7771DA8DB830011C193 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BEB7801DA8DB830011C193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BEB78B1DA8DB830011C193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03BEB7651DA8DB830011C193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BEB7741DA8DB830011C193 /* ViewController.m in Sources */,
+				03BEB7711DA8DB830011C193 /* AppDelegate.m in Sources */,
+				03BEB7A11DA8DB980011C193 /* RainbowProgressView.m in Sources */,
+				03BEB76E1DA8DB830011C193 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BEB77E1DA8DB830011C193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BEB7871DA8DB830011C193 /* RainbowProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BEB7891DA8DB830011C193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BEB7921DA8DB830011C193 /* RainbowProgressViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03BEB7841DA8DB830011C193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03BEB7681DA8DB830011C193 /* RainbowProgressView */;
+			targetProxy = 03BEB7831DA8DB830011C193 /* PBXContainerItemProxy */;
+		};
+		03BEB78F1DA8DB830011C193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03BEB7681DA8DB830011C193 /* RainbowProgressView */;
+			targetProxy = 03BEB78E1DA8DB830011C193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03BEB7751DA8DB830011C193 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03BEB7761DA8DB830011C193 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03BEB77A1DA8DB830011C193 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03BEB77B1DA8DB830011C193 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03BEB7941DA8DB830011C193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03BEB7951DA8DB830011C193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03BEB7971DA8DB830011C193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RainbowProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mobby.RainbowProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		03BEB7981DA8DB830011C193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RainbowProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mobby.RainbowProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		03BEB79A1DA8DB830011C193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RainbowProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mobby.RainbowProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainbowProgressView.app/RainbowProgressView";
+			};
+			name = Debug;
+		};
+		03BEB79B1DA8DB830011C193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RainbowProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mobby.RainbowProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainbowProgressView.app/RainbowProgressView";
+			};
+			name = Release;
+		};
+		03BEB79D1DA8DB830011C193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RainbowProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mobby.RainbowProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RainbowProgressView;
+			};
+			name = Debug;
+		};
+		03BEB79E1DA8DB830011C193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RainbowProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mobby.RainbowProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RainbowProgressView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03BEB7641DA8DB830011C193 /* Build configuration list for PBXProject "RainbowProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BEB7941DA8DB830011C193 /* Debug */,
+				03BEB7951DA8DB830011C193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03BEB7961DA8DB830011C193 /* Build configuration list for PBXNativeTarget "RainbowProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BEB7971DA8DB830011C193 /* Debug */,
+				03BEB7981DA8DB830011C193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03BEB7991DA8DB830011C193 /* Build configuration list for PBXNativeTarget "RainbowProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BEB79A1DA8DB830011C193 /* Debug */,
+				03BEB79B1DA8DB830011C193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03BEB79C1DA8DB830011C193 /* Build configuration list for PBXNativeTarget "RainbowProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BEB79D1DA8DB830011C193 /* Debug */,
+				03BEB79E1DA8DB830011C193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03BEB7611DA8DB830011C193 /* Project object */;
+}
